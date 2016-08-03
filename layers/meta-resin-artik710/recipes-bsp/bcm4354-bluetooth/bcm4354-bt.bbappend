@@ -15,3 +15,8 @@ do_install_append() {
         install -c -m 0644 ${WORKDIR}/brcm-bt-firmware.conf ${D}${sysconfdir}/systemd/system/brcm-bt-firmware.service.d/
     fi
 }
+
+# FIXME
+# Avoid arch mismatch
+# brcm_patchram_plus is arm while machine arch is aarch64
+ERROR_QA_remove_artik710 = "arch"
