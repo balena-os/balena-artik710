@@ -2,14 +2,14 @@ This patch moves the bluetooth mac address file into the
 resin-conf partition (needed for not clashing with resinhup).
 
 Upstream-Status: Inappropriate [configuration specific]
-Signed-off-by: Florin Sarbu <florin@resin.io>
+Signed-off-by: Andrei Gherzan <andrei@resin.io>
 
 Index: 1.0-r0/fwdown.sh
 ===================================================================
 --- 1.0-r0.orig/fwdown.sh
 +++ 1.0-r0/fwdown.sh
-@@ -9,11 +9,12 @@ EOF
- }
+@@ -1,11 +1,12 @@
+ #!/bin/sh
  
  function gen_bd_addr {
 -	[ -d /opt/.bd_addr ] || rm -f /opt/.bd_addr
@@ -24,7 +24,7 @@ Index: 1.0-r0/fwdown.sh
  	sync
  }
  
-@@ -38,14 +39,14 @@ for x in $(cat /proc/cmdline); do
+@@ -18,14 +19,14 @@ for x in $(cat /proc/cmdline); do
  done
  
  if [ "$BD_ADDR" == "" ]; then

@@ -1,6 +1,3 @@
-# FIXME
-# THIS IS A DUPLICATED FILE FROM https://github.com/resin-os/resin-artik/tree/master/layers/meta-resin-artik
-
 FILESEXTRAPATHS_append := ":${THISDIR}/files"
 
 # add custom systemd drop-in file (brcm-bt-firmware.conf) to accomodate changes from fwdown_adapt_to_resin.patch (we need to wait for the resin-conf partition to be mounted)
