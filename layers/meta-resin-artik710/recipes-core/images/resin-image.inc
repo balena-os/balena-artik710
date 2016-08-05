@@ -1,7 +1,7 @@
 IMAGE_FSTYPES_append = " resin-sdcard"
 
 # Customize resin-sdcard
-RESIN_BOOT_PARTITION_FILES_append = "uImage-${MACHINE}.bin:/uImage"
+RESIN_BOOT_PARTITION_FILES_append = " uImage-${MACHINE}.bin:/uImage"
 
 #
 # Samsung Artik 710
