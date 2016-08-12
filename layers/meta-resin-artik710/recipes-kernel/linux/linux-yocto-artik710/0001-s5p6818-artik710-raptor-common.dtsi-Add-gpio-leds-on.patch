@@ -1,0 +1,39 @@
+From 0798e65b14a476673bb95b40a2d26534ff2dfc84 Mon Sep 17 00:00:00 2001
+From: Andrei Gherzan <andrei@resin.io>
+Date: Fri, 5 Aug 2016 12:55:31 +0200
+Subject: [PATCH] s5p6818-artik710-raptor-common.dtsi: Add gpio-leds on led1
+ and led2
+
+Upstream-Status: Inappropiate [Configuration]
+
+Signed-off-by: Andrei Gherzan <andrei@resin.io>
+---
+ .../boot/dts/nexell/s5p6818-artik710-raptor-common.dtsi      | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+diff --git a/arch/arm64/boot/dts/nexell/s5p6818-artik710-raptor-common.dtsi b/arch/arm64/boot/dts/nexell/s5p6818-artik710-raptor-common.dtsi
+index be2752b..12c7a74 100644
+--- a/arch/arm64/boot/dts/nexell/s5p6818-artik710-raptor-common.dtsi
++++ b/arch/arm64/boot/dts/nexell/s5p6818-artik710-raptor-common.dtsi
+@@ -552,6 +552,18 @@
+ 				regulator-boot-on;};
+ 	}; /* regulators */
+ 
++	leds {
++		compatible = "gpio-leds";
++		led1 {
++			label = "led1";
++			gpios = <&gpio_a 28 0>;
++		};
++		led2 {
++			label = "led2";
++			gpios = <&gpio_b 6 0>;
++		};
++	};
++
+ };
+ 
+ &serial0 {
+-- 
+2.1.4
+
