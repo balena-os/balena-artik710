@@ -18,7 +18,7 @@ module.exports =
 	aliases: [ 'artik710' ]
 	name: 'Samsung Artik 710'
 	arch: 'aarch64'
-	state: 'experimental'
+	state: 'HIDDEN'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
