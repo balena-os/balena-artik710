@@ -6,7 +6,7 @@
 	url = git@github.com:resin-os/resin-yocto-scripts.git
 [submodule "layers/meta-artik"]
 	path = layers/meta-artik
-	url = git@github.com:resin-os/meta-artik.git
+	url = https://github.com/resin-os/meta-artik.git
 [submodule "layers/meta-artik710"]
 	path = layers/meta-artik710
 	url = git@github.com:resin-os/meta-artik710.git
