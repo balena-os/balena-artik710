@@ -36,7 +36,7 @@ module.exports =
 		osx: 'http://docs.resin.io/#/pages/installing/gettingStarted-Samsung-Artik710.md#on-mac-and-linux'
 		linux: 'http://docs.resin.io/#/pages/installing/gettingStarted-Samsung-Artik710.md#on-mac-and-linux'
 
-	supportsBlink: false
+	supportsBlink: true
 
 	yocto:
 		machine: 'artik710'
