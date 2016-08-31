@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Update meta-artik710 submodule [Florin]
+
 # v1.10.0 - 2016-08-24
 
 * Update meta-resin to v1.10 [Florin]
