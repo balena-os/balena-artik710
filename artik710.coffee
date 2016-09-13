@@ -1,4 +1,4 @@
-deviceTypesCommon = require 'resin-device-types/common'
+deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
 BOARD_SHUTDOWN_ARTIK = 'The device is performing a shutdown. Wait 30 seconds and press the power switch SW5 to the off position.'
