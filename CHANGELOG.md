@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Update resin-artik710 bsp to artik7-0710GC0F-41F-01Q6 [Florin]
+
 # v2.0.0-beta.1 - 2016-10-11
 
 * Update meta-resin to v2.0-beta.1 [Andrei]
