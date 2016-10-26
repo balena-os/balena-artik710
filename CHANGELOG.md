@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.0.2-beta.2 - 2016-10-27
+
+* Update switches names in instructions [Andrei]
+* Fix board freeze [Andrei]
+
 # v2.0.1-beta.2 - 2016-10-26
 
 # v2.0.0-beta.2 - 2016-10-25
