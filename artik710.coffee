@@ -1,10 +1,10 @@
 deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
-BOARD_SHUTDOWN_ARTIK = 'The device is performing a shutdown. Wait 30 seconds and press the power switch SW5 to the off position.'
-SET_JUMPER_SD = 'Set SW4 dip switch to position 1:off, 2:off, 3:off, 4:on.'
-SET_JUMPER_EMMC = 'Set SW4 dip switch to position 1:off, 2:off, 3:off, 4:off.'
-BOARD_POWERON_ARTIK = 'Press the power switch SW5 to the on position. Press and hold for 1 second the SW2 POWER push button.'
+BOARD_SHUTDOWN_ARTIK = 'The device is performing a shutdown. Wait 30 seconds or until the blue LED 703 is off and switch SW700 to the off position.'
+SET_JUMPER_SD = 'Set SW402 dip switch to position 1:off, 2:off, 3:off, 4:on.'
+SET_JUMPER_EMMC = 'Set SW402 dip switch to position 1:off, 2:off, 3:off, 4:off.'
+BOARD_POWERON_ARTIK = 'Switch SW700 to the on position. Press and hold for 1 second the SW400 POWER push button.'
 
 postProvisioningInstructions = [
 	BOARD_SHUTDOWN_ARTIK
