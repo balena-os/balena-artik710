@@ -1,6 +1,9 @@
 Change log
 -----------
 
+# v2.0.0-beta.9 - 2017-02-08
+
+* Update meta-resin to v2.0-beta.9 [Andrei]
 * Update meta-artik710 to bring in the 1280x1024x60 patch [Michal]
 
 # v2.0.0-beta.8 - 2017-01-27
