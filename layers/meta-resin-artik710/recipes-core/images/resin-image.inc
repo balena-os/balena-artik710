@@ -23,9 +23,9 @@ IMAGE_CMD_resinos-img_append_artik710 () {
     # bl33 (a.k.a. AP Normal World Firmware: AP_BL33, in our case the uboot binary modified as a FIP - Firmware Image Package - and then into a nexell image using SECURE_BINGEN),
     # u-boot environment data
     # written at specific locations for both SD card and eMMC boot.
-    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL1} of=${RESIN_SDIMG} bs=512 seek=${BL1_OFFSET}
-    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL2} of=${RESIN_SDIMG} bs=512 seek=${BL2_OFFSET}
-    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL31} of=${RESIN_SDIMG} bs=512 seek=${TZSW_OFFSET}
-    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL33} of=${RESIN_SDIMG} bs=512 seek=${UBOOT_OFFSET}
-    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${UBOOT_ENV_BIN} of=${RESIN_SDIMG} conv=notrunc bs=512 seek=${ENV_OFFSET}
+    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL1} of=${RESIN_RAW_IMG} bs=512 seek=${BL1_OFFSET}
+    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL2} of=${RESIN_RAW_IMG} bs=512 seek=${BL2_OFFSET}
+    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL31} of=${RESIN_RAW_IMG} bs=512 seek=${TZSW_OFFSET}
+    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL33} of=${RESIN_RAW_IMG} bs=512 seek=${UBOOT_OFFSET}
+    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${UBOOT_ENV_BIN} of=${RESIN_RAW_IMG} conv=notrunc bs=512 seek=${ENV_OFFSET}
 }
