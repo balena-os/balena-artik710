@@ -1,13 +1,13 @@
-IMAGE_FSTYPES_append = " resin-sdcard"
+IMAGE_FSTYPES_append = " resinos-img"
 
-# Customize resin-sdcard
+# Customize resinos-img
 RESIN_BOOT_PARTITION_FILES_append = " Image-${MACHINE}.bin:/Image"
 
 #
 # Samsung Artik 710
 #
 
-# Customize resin-sdcard
+# Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_artik710 = "u-boot-artik710"
 RESIN_BOOT_PARTITION_FILES_append_artik710 = " \
     Image-s5p6818-artik710-raptor-rev00.dtb:/s5p6818-artik710-raptor-rev00.dtb \
@@ -15,7 +15,7 @@ RESIN_BOOT_PARTITION_FILES_append_artik710 = " \
     Image-s5p6818-artik710-raptor-rev03.dtb:/s5p6818-artik710-raptor-rev03.dtb \
 "
 
-IMAGE_CMD_resin-sdcard_append_artik710 () {
+IMAGE_CMD_resinos-img_append_artik710 () {
     # Artik710 needs the following:
     # bl1 (a.k.a. AP Boot ROM: AP_BL1, in our case bl1-sdboot.img for SD boot and bl1-emmcboot.img for eMMC boot),
     # bl2 (a.k.a. AP RAM Firmware: AP_BL2, in our case fip-loader-sd.img for SD boot and fip-loader-emmc.img for eMMC boot),
