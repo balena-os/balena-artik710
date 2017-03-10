@@ -43,7 +43,7 @@ module.exports =
 		machine: 'artik710'
 		image: 'resin-image-flasher'
 		fstype: 'resinos-img'
-		version: 'yocto-jethro'
+		version: 'yocto-morty'
 		deployArtifact: 'resin-image-flasher-artik710.resinos-img'
 		compressed: true
 
