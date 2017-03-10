@@ -27,5 +27,4 @@ IMAGE_CMD_resinos-img_append_artik710 () {
     dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL2} of=${RESIN_RAW_IMG} bs=512 seek=${BL2_OFFSET}
     dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL31} of=${RESIN_RAW_IMG} bs=512 seek=${TZSW_OFFSET}
     dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${BL33} of=${RESIN_RAW_IMG} bs=512 seek=${UBOOT_OFFSET}
-    dd conv=notrunc if=${DEPLOY_DIR_IMAGE}/${UBOOT_ENV_BIN} of=${RESIN_RAW_IMG} conv=notrunc bs=512 seek=${ENV_OFFSET}
 }
