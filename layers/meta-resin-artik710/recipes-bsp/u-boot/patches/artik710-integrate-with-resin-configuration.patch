@@ -1,0 +1,40 @@
+Index: git/include/configs/artik710_raptor.h
+===================================================================
+--- git.orig/include/configs/artik710_raptor.h
++++ git/include/configs/artik710_raptor.h
+@@ -228,6 +228,7 @@
+ #define CONFIG_CMD_GPT
+ #define CONFIG_EFI_PARTITION
+ #define CONFIG_PARTITION_UUIDS
++#define CONFIG_CMD_PART
+ #define CONFIG_RANDOM_UUID
+ 
+ #define CONFIG_CMD_DFU
+@@ -394,7 +395,7 @@
+ 		"factory_info write ethaddr $ethaddr;"			\
+ 		"run factory_save\0"					\
+ 	"load_args=run factory_load; setenv bootargs ${console} "	\
+-		"root=/dev/mmcblk${rootdev}p${rootpart} ${root_rw} "	\
++		"${resin_kernel_root} ${root_rw} "			\
+ 		"rootfstype=${rootfs_type} ${opts} ${recoverymode} "	\
+ 		"drm_panel=$lcd_panel\0"				\
+ 	"load_kernel=fatload mmc ${rootdev}:${bootpart} $kerneladdr $kernel_file\0" \
+@@ -406,7 +407,9 @@
+ 		"run load_fdt; run load_kernel;"			\
+ 		"booti $kerneladdr - $fdtaddr\0"			\
+ 	"ramfsboot=run load_args; run boot_cmd_initrd\0"		\
+-	"mmcboot=run load_args; run boot_cmd_mmcboot\0"			\
++	"mmcboot=setenv resin_kernel_load_addr ${kerneladdr};"		\
++		"run resin_set_kernel_root;"				\
++		"run load_args; run boot_cmd_mmcboot\0"			\
+ 	"recovery_cmd=run sdrecovery; setenv recoverymode recovery\0"	\
+ 	"recoveryboot=run recovery_cmd; run ramfsboot\0"		\
+ 	"hwtestboot=setenv rootdev 1;"					\
+@@ -414,6 +417,6 @@
+ 		"setenv fdtfile s5p6818-artik710-explorer.dtb; "	\
+ 		"run mmcboot\0"						\
+ 	"hwtest_recoveryboot=run recovery_cmd; run hwtestboot\0"	\
+-	"bootcmd=run ramfsboot\0"
++	"bootcmd=run mmcboot\0"
+ 
+ #endif /* __CONFIG_H__ */
