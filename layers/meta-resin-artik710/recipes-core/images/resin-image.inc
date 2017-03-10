@@ -1,7 +1,7 @@
 IMAGE_FSTYPES_append = " resinos-img"
 
 # Customize resinos-img
-RESIN_BOOT_PARTITION_FILES_append = " Image-${MACHINE}.bin:/Image"
+RESIN_BOOT_PARTITION_FILES_append = " Image${KERNEL_INITRAMFS}-${MACHINE}.bin:/Image"
 
 #
 # Samsung Artik 710
