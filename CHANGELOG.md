@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Use the kernel with the bundled initramfs [Florin]
 * Implement resin-uboot specification 2.0 for artik710 [Florin]
 * Upgrade artik710 to Poky Morty [Michal]
 
