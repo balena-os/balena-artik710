@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add support for kitra 710 [Michal]
 * Update meta-artik710 submodule so we fetch the kernel using https instead of git [Florin]
 * Use the kernel with the bundled initramfs [Florin]
 * Implement resin-uboot specification 2.0 for artik710 [Florin]
