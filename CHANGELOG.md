@@ -1,6 +1,10 @@
 Change log
 -----------
 
+# v2.0.0-rc5.rev1 - 2017-03-26
+
+* meta-resin: Bump to v2.0.0-rc5 [Andrei]
+
 # v2.0.0-rc4.rev1 - 2017-03-20
 
 * meta-resin: Bump to v2.0.0-rc4 [Andrei]
