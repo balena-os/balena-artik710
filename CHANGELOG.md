@@ -1,6 +1,8 @@
 Change log
 -----------
 
+# v2.0.0+rev4 - 2017-04-12
+
 * Bump resin-yocto-scripts to fix deployment on production [Andrei]
 
 # v2.0.0+rev3 - 2017-04-11
