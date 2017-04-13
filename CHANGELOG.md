@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Bump resin-yocto-scripts to include compressed images in deployment too [Andrei]
+
 # v2.0.0+rev4 - 2017-04-12
 
 * Bump resin-yocto-scripts to fix deployment on production [Andrei]
