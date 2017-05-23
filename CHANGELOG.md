@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Fix old references in the bcm4345-bt recipe to conf partition which is now called the state partition [Florin]
 * Update the resin-yocto-scripts submodule [Florin]
 
 # v2.0.4+rev1 - 2017-05-17
