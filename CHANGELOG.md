@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Add kitra710 icon file [Florin]
+
 # v2.0.4+rev2 - 2017-05-23
 
 * Fix old references in the bcm4345-bt recipe to conf partition which is now called the state partition [Florin]
