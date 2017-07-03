@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Update the resin-yocto-scripts submodule to HEAD of master [Florin]
 * Add kitra710 icon file [Florin]
 
 # v2.0.4+rev2 - 2017-05-23
