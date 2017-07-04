@@ -42,7 +42,7 @@ index b6def9a..c2e0b37 100644
 -	"mmcboot=run load_args; run boot_cmd_mmcboot\0"			\
 +	"mmcboot=setenv resin_kernel_load_addr ${kerneladdr};"		\
 +		"run resin_set_kernel_root;"				\
-+		"setenv rootdev ${resin_mmcdev};"			\
++		"setenv rootdev ${resin_dev_index};"			\
 +		"run load_args; run boot_cmd_mmcboot\0"			\
  	"recovery_cmd=run sdrecovery; setenv recoverymode recovery\0"	\
  	"recoveryboot=run recovery_cmd; run ramfsboot\0"		\
