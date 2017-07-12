@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Update the meta-artik and meta-artik710 submodules to HEAD of morty branch [Florin]
+
 # v2.0.8+rev1 - 2017-07-04
 
 * Update the meta-resin submodule to version v2.0.8 [Florin]
