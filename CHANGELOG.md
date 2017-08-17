@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Re-enabled UPX compresion for docker and resin-provisioner [Florin]
+
 # v2.2.0+rev1 - 2017-07-30
 
 * Update the meta-resin submodule to version v2.2.0 [Florin]
