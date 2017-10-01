@@ -1,6 +1,10 @@
 Change log
 -----------
 
+# v2.6.1+rev1
+## (2017-10-01)
+
+* Update the meta-resin submodule to version v2.6.1 [Florin]
 * Update the meta-artik710 submodule to HEAD of morty branch [Florin]
 * Update the resin-yocto-scripts submodule to HEAD of master [Florin]
 * Include meta-rust layer [Will]
