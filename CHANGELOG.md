@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Update poky to latest morty branch [Will]
+
 # v2.6.1+rev1
 ## (2017-10-01)
 
