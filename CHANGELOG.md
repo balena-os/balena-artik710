@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Update meta-openembedded to latest morty branch [Will]
 * Update poky to latest morty branch [Will]
 
 # v2.6.1+rev1
