@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Increase initramfs size to 12 MB (12288 KB) [Florin]
 * Update meta-openembedded to latest morty branch [Will]
 * Update poky to latest morty branch [Will]
 
