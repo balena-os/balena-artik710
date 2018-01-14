@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add hostapp update hook that allows flashing the bootloader when doing host OS updates [Florin]
 * Deploy the bootloader files to resin-boot so we can use them when doing hostOS updates [Florin]
 * Update the resin-yocto-scripts submodule to 6f7a9ab326bb822196e3e48b08ef1d73d08caec6 (on master branch) [Florin]
 
