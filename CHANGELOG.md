@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Fix 99-flash-bootloader bootloader md5sum check from hostapp-update-hooks [Florin]
+
 # v2.9.6+rev1
 ## (2018-01-15)
 
