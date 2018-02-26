@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Update submodules to pyro versions [Florin]
 * Fix 99-flash-bootloader bootloader md5sum check from hostapp-update-hooks [Florin]
 
 # v2.9.6+rev1
