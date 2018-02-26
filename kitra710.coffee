@@ -19,7 +19,7 @@ module.exports =
 	aliases: [ 'kitra710' ]
 	name: 'RushUp Kitra 710'
 	arch: 'aarch64'
-	state: 'experimental'
+	state: 'released'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
