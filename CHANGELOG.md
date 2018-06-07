@@ -1,6 +1,10 @@
 Change log
 -----------
 
+# v2.13.0+rev1
+## (2018-06-07)
+
+* Update the meta-resin submodule to version v2.13.0 [Florin]
 * Update the meta-artik710 BSP submodule to e8383b7566ebbff9bdf996b5634613469ba845ec (on pyro branch) [Florin]
 
 # v2.12.7+rev1
