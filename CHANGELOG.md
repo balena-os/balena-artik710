@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.15.1+rev1
+## (2018-09-17)
+
+* Add a parsable representation of the changelog [Giovanni Garufi]
+* Update the meta-resin submodule to version v2.15.1 [Florin Sarbu]
+
 # v2.14.3+rev2
 ## (2018-08-27)
 
