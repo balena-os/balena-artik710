@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.29.2+rev2
+## (2019-04-20)
+
+* Discontinue the artik710 board [Florin Sarbu]
+* Discontinue the kitra710 board [Florin Sarbu]
+
 # v2.29.2+rev1
 ## (2019-01-16)
 

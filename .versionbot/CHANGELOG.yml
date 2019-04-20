@@ -1,4 +1,27 @@
 - commits:
+    - subject: Discontinue the artik710 board
+      hash: c6baa796d3961b50601201414a102493a84c3896
+      body: |
+        We will no longer be offering OS updates for this board
+      footer:
+        Changelog-entry: Discontinue the artik710 board
+        changelog-entry: Discontinue the artik710 board
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Discontinue the kitra710 board
+      hash: ab80d1eea92205826eb38738fe0fdd2819a89bbf
+      body: |
+        We will no longer be offering OS updates for this board
+      footer:
+        Changelog-entry: Discontinue the kitra710 board
+        changelog-entry: Discontinue the kitra710 board
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.29.2+rev2
+  date: 2019-04-20T12:37:51.433Z
+- commits:
     - subject: Update the meta-resin submodule from v2.26.0 to v2.29.2
       hash: fa22ac7f137223722d1534af5e18118434c2aba7
       body: |
