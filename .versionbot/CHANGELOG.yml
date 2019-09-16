@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.3.7
+      hash: a4b086f9051cb238ab6cfe2400d13feff293667d
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.3.7
+        changelog-entry: Update balena-yocto-scripts to v1.3.7
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.29.2+rev3
+  date: 2019-09-16T10:42:40.489Z
+- commits:
     - subject: Discontinue the artik710 board
       hash: c6baa796d3961b50601201414a102493a84c3896
       body: |
